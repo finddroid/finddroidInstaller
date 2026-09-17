@@ -1,0 +1,57 @@
+# ================================
+# FindDroid Android Project
+# ================================
+
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Local configuration
+local.properties
+
+# Android generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Generated APK / AAB
+*.apk
+*.aab
+
+# Generated Android files
+*.ap_
+*.dex
+
+# Kotlin generated files
+*.kotlin_module
+
+# Native build outputs
+obj/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+
+# Firebase / Google service files
+# Uncomment ONLY if these contain private credentials:
+# google-services.json
+
+# Keystore / signing files
+*.jks
+*.keystore
+*.keystore.properties
